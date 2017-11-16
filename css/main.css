@@ -1,0 +1,178 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+/*quitar margin y pading por default*/
+  margin: 0;
+  padding: 0;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+/*alinear barra de menú*/
+header {
+  height: 98px;
+  margin: 0;
+  padding: 0;
+  width: 1366px;
+
+}
+ /*tamaño de la barra de menú y logo*/
+.menu-size {
+  background-color: white;
+  height: 98px;
+  margin: 0;
+  position: relative;/*como hacer que quede al mismo nivel*/
+  width: 1366px;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo{
+  display: inline-block;
+  height: 98px;
+  width: 98px;
+  position: absolute;
+  left: 83%
+}
+/*centrado y creacion de menú horizontal*/
+
+ul {
+  background: #FFFFFF;
+  height: 98px;
+  margin-left: 162px;
+  list-style: none;
+}
+
+/*VOlver a crear clase de texto en negro*/
+li {
+  width: 100px;
+  display: inline-block;
+  left: 20px;
+  line-height: 98px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*primera seccion*/
+
+/*imagen de fondo*/
+#bg_home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: cover;
+  height: 516px;
+  width: 1355px;
+}
+
+/*clase para letras blancas*/
+.white-letter {
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/*clases para maniputar tamaños de letra y posición*/
+.section-position {
+  position: relative;
+}
+
+.text-h2-s1 {
+  font-size: 22px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+}
+
+.text-h1-s1 {
+  font-size: 51px;
+  position: absolute;
+  left: 283px;
+  top: 166px;
+}
+
+.text-p-s1 {
+  position: absolute;
+  left: 398px;
+  top: 267px;
+}
+
+.text-a-s1 {
+  color: white;
+  background-color: #292D36;
+  height: 47px;
+  position: absolute;
+  left: 595px;
+  top: 358px;
+  width: 149px;
+
+}
+/*segunda seccion*/
+.second-section-style {
+  background-color: #F17C72;
+}
