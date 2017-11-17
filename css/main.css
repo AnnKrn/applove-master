@@ -87,7 +87,7 @@ header {
   background-color: white;
   height: 98px;
   margin: 0;
-  position: relative;/*como hacer que quede al mismo nivel*/
+  position: relative;
   width: 1366px;
   position: fixed;
   z-index: 1;
@@ -162,17 +162,94 @@ li {
   top: 267px;
 }
 
-.text-a-s1 {
+.text-a-s1 { /*centrartexto del boton*/
   color: white;
-  background-color: #292D36;
+  text-align: center;
+  padding-top: 10px;
+  top: 12px;
+  position: relative;
+}
+/*formato del boton*/
+.button-services{
+  background-color: #28cc7c;
   height: 47px;
-  position: absolute;
   left: 595px;
+  position: absolute;
   top: 358px;
   width: 149px;
-
 }
 /*segunda seccion*/
+
+/*fondo de color*/
 .second-section-style {
   background-color: #F17C72;
+  height: 667px;
+  position: relative;
+  width: 1355px;
+}
+
+/*estilo de texto central*/
+
+.text-h2-s2 {
+  font-size: 33px;
+  font-weight: bold;
+  left: 580px;
+  position: absolute;
+  top: 90px;
+}
+
+.text-h4-s2 {
+  font-size: 16px;
+  font-weight: bold;
+  left: 304px;
+  position: absolute;
+  top: 166px;
+}
+
+/*tamaño y acomodo de imagenes y texto de pie*/
+/*posicionamiento de las imagenes de */
+
+.services-images {
+  height: 200px;
+  width: 200px;
+}
+
+.service_images_position {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.center-images {
+  position: absolute;
+  bottom: 73px;
+  left: 303px;
+}
+
+.spaces-bt-lines {
+  margin-top: 25px;
+}
+
+/*third section*/
+
+/*alineacion de texto y estilo de texto negro*/
+.size-computer-image {
+  height: 920px;
+  width: 900px;
+}
+
+.black-letter {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.text-interline {
+  padding-top: 30px;
+}
+
+.image-interline {
+  display: inline-block;
+  height: 920px;
+  text-align: center;
+  width: 900px;
 }
