@@ -191,23 +191,24 @@ li {
 /*estilo de texto central*/
 
 .text-h2-s2 {
-  font-size: 33px;
+  font-size: 35px;
   font-weight: bold;
-  left: 580px;
+  left: 602px;
   position: absolute;
-  top: 90px;
+  top: 74px;
 }
 
 .text-h4-s2 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
-  left: 304px;
+  left: 315px;
   position: absolute;
   top: 166px;
 }
 
 /*tamaño y acomodo de imagenes y texto de pie*/
-/*posicionamiento de las imagenes de */
+
+/*posicionamiento de las imagenes de servicios*/
 
 .services-images {
   height: 200px;
@@ -216,15 +217,16 @@ li {
 
 .service_images_position {
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 140px;
 }
 
 .center-images {
   position: absolute;
   bottom: 73px;
-  left: 303px;
+  left: 232px;
 }
 
+/*interlineado de texto de imagenes de servicios*/
 .spaces-bt-lines {
   margin-top: 25px;
 }
@@ -232,24 +234,75 @@ li {
 /*third section*/
 
 /*alineacion de texto y estilo de texto negro*/
+/*tamaño y posicion de imagen principal de seccion*/
 .size-computer-image {
   height: 920px;
   width: 900px;
 }
 
+.image-interline {
+  display: block;
+  height: 920px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding-top: 10px;
+  width: 900px;
+}
+ /*estilo de texto negro*/
 .black-letter {
   color: black;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
-.text-interline {
-  padding-top: 30px;
+.title-size-black {
+  font-size: 31px;
 }
 
-.image-interline {
+.title-interline {
+  padding-top: 63px;
+}
+
+.pharse-size-black {
+  font-size: 17px;
+}
+
+.text-interline {
+  padding: 28px 0px;
+}
+
+/*forth section - proyectos*/
+ /*tamaño y posicion de imagenes*/
+.proyect-images-container {
   display: inline-block;
-  height: 920px;
-  text-align: center;
-  width: 900px;
+  height: 249px;
+  margin: 0 35px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 301px;
+}
+
+.text-style-proyect {
+  margin: 0px 20px 0px;
+  padding-left: 69px;
+}
+
+.center-services {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  width: 1194px;
+}
+
+/*footer*/
+.footer-style {
+  height: 70px;
+  background-color: #3D414C;
+  position: relative;
+}
+
+.center-footer {
+  position: absolute;
+  top: 21px;
+  left: 630px;
 }
